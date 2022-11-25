@@ -9,6 +9,6 @@
 
 **Состав:** Решетников Андрей(менеджер), Алина Дробышевская(дизайнер), Хандобин Илья(разработчик)
 ## Стек технологий
-Язык: Node.js
-База данных: Mongodb
-Библиотеки: Express, Mongoose, bcrypt, jsonwebtoken, express-validator
+**Язык:** Node.js
+**База данных:** Mongodb
+**Библиотеки:** Express, Mongoose, bcrypt, jsonwebtoken, express-validator
