@@ -13,4 +13,4 @@
 
 **База данных:** Mongodb
 
-**Библиотеки:** Express, Mongoose, bcrypt, jsonwebtoken, express-validator
+**Библиотеки и вспомогательные инструмены:** Express, Mongoose, bcrypt, jsonwebtoken, express-validator, cors, nodemon
