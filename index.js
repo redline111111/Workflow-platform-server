@@ -2,7 +2,7 @@ import express from "express";
 import multer from "multer";
 import mongoose from "mongoose";
 import cors from 'cors';
-import { UserController, TeamController, DashboardController} from "./controllers/index.js";
+import { UserController, TeamController, DashboardController, BotController} from "./controllers/index.js";
 import {checkAuth} from "./utils/index.js";
 
 
@@ -23,6 +23,11 @@ app.get('/teams', TeamController.getAll);
 app.get('/teams/:name', TeamController.getOne);
 
 app.get('/dashboard/locations', DashboardController.locations);
+
+app.get('/bot/match/:string', BotController.match);
+app.get('/bot/questions', BotController.getAllQuestions);
+app.post('/bot/questions', BotController.addQuestion);
+app.post('/bot', BotController.addKey);
 
 app.listen(4444, (err) =>{
     if(err){

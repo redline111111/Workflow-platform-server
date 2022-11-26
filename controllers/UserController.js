@@ -25,6 +25,7 @@ export const register = async (req,res) =>{
                 sex: req.body.sex,
                 age: req.body.age,
                 avatarUrl: req.body.avatarUrl,
+                isAdmin: req.body.isAdmin,
                 passwordHash: hash,
             });
         
