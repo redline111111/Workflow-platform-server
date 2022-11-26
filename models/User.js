@@ -28,6 +28,7 @@ const userSchema = new mongoose.Schema({
         lat: Number,
         lon: Number,
     },
+    isAdmin:Boolean,
     role: String,
     sex: String,
     age: Number,
